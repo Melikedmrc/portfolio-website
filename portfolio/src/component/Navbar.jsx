@@ -12,7 +12,7 @@ function Navbar() {
         <a href='#skill' className='p-10'>
           SKILL
         </a>
-        <a href='#skill' className='p-10'>
+        <a href='https://github.com/Melikedmrc?tab=repositories' target="blank" className='p-10'>
           PROJECTS
         </a>
         <a href="mailto:melikedmrcii11@gmail.com" className='p-10'>
