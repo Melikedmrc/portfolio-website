@@ -13,6 +13,15 @@ export default {
         playfair:['"Playfair"','serif'],
         nunito:['"Nunito"','serif'],
       },
+      keyframes: {
+        smoothBounce: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-25px)' }, // Daha yumuşak çıkış
+        },
+      },
+      animation: {
+        smoothBounce: 'smoothBounce 5s ease-in-out infinite', // 5 saniye sürecek ve sonsuz döngü olacak
+      },
     },
   },
   plugins: [],
