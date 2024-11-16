@@ -20,7 +20,7 @@ function Navbar() {
         </a>
       </div>
       <div className='pr-16'>
-        <button className='font-playfair text-md font-bold tracking-wider text-white bg-stone-400 px-5 py-3 rounded-full'>
+        <button className='font-playfair text-md font-bold tracking-wider text-white bg-stone-400 hover:bg-stone-500  px-5 py-3 rounded-full'>
           RESUME CV
         </button>
       </div>
