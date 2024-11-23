@@ -7,8 +7,13 @@
 @tailwind utilities;
 
 body {
-    @apply bg-[#fcfaf2];
-    margin: 0;
+    @apply bg-[#FDFBF9];
+    /* margin: 0 9%; */
     padding: 0;
     box-sizing: border-box;
 }
+
+/* FBFBFB */
+/* FAF7F0 */
+/* F3EEEA */
+/* FDFBF9 */

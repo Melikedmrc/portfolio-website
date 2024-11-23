@@ -1,14 +1,17 @@
 import './App.css'
 import  Navbar  from "./component/Navbar";
 import AboutMe from "./component/AboutMe";
+import Skill from "./component/Skill";
 
 function App() {
 
   return (
-    <>
-    <Navbar/>
-    <AboutMe/>
-    </>
+    <div className="min-h-screen flex flex-col">
+    <Navbar />
+    <AboutMe />
+    <Skill/>
+</div>
+
   )
 }
 
