@@ -16,7 +16,7 @@ function Navbar() {
           duration={500}
           className="hover:scale-105 transition-all"
         >
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" className="cursor-pointer" />
         </Link>
       </div>
 
