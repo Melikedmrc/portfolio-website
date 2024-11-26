@@ -23,7 +23,7 @@ function Skill() {
         {/* <h2 className="text-5xl font-yeseva font-light text-gray-900">My Skills</h2> */}
       </div>
 
-      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-10 ">
+      <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mb-8 md:mb-0 ">
         {/* SkillCard componentini döngü ile render ediyoruz */}
         {skills.map((skill, index) => (
           <SkillCard
