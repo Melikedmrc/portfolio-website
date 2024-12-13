@@ -1,6 +1,6 @@
 import Typewriter from 'typewriter-effect'; 
 import img from "../assets/img.jpg"; // Resmin doğru importu
-import CV from '../assets/cv.pdf';
+import CV from '../assets/melike-demirci-cv.pdf';
 
 
 function AboutMe() {
