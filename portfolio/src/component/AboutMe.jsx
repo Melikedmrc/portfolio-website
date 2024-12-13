@@ -1,5 +1,7 @@
 import Typewriter from 'typewriter-effect'; 
 import img from "../assets/img.jpg"; // Resmin doğru importu
+import CV from '../assets/cv.pdf';
+
 
 function AboutMe() {
   return (
@@ -28,8 +30,7 @@ function AboutMe() {
           />
         </div>
         <p className="text-center lg:text-left font-nunito text-sm sm:text-base md:text-lg text-stone-400">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum labore cumque aliquid expedita
-          pariatur iste deleniti provident optio repellendus velit.
+        I am a junior web developer focused on creating user-centered, modern, and visually appealing web experiences. I am open to continuous learning and development opportunities, ensuring I provide solutions that meet client needs.
         </p>
         <div className="flex  items-center justify-center lg:justify-start gap-1 md:gap-4">
           <a href="http://www.linkedin.com/in/melike-demirci-790324202" target="_blank" rel="noopener noreferrer">
@@ -57,9 +58,12 @@ function AboutMe() {
               src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/39/external-discord-chat-for-social-gaming-between-peers-logo-bold-tal-revivo.png" 
               alt="Discord" />
           </a>
-          <button className="font-playfair text-sm font-bold tracking-wider text-white bg-stone-400 hover:bg-stone-500 px-4 py-2 rounded-md w-36 h-10 sm:w-36 sm:h-10 md:w-36 md:h-10 ml-2">
+          <a 
+            href={CV}
+            download="Melike-Demirci-CV.pdf"
+            className="flex items-center justify-center font-playfair text-sm font-bold tracking-wider text-white bg-stone-400 hover:bg-stone-500 px-4 py-2 rounded-md w-36 h-10 sm:w-36 sm:h-10 md:w-36 md:h-10 ml-2">
             RESUME CV
-          </button>
+          </a>
         </div>
       </div>
 
